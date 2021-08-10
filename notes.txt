@@ -1,0 +1,40 @@
+collatz conjecture notes
+
+AKA Ulam, Thwaites, kakutani, hasse's, syracuse problem, 3n+1
+
+A sequence that always ends up at 0. 
+
+If odd
+3x+1
+
+If even 
+x/2
+
+"hailstone numbers" - go up and down but eventually hit the ground
+
+"stopping time" - iterations do get to 1
+
+
+What will my program do?
+- Console application that can run a simulation of the collatz conjecture with any starting number
+- stores each iteration in database
+- log different attributes for each number 
+	- stopping time 
+	- each number visited
+	- number of evens vs odds
+	- 
+- generate dashboard with various charts and graphs 
+	- Dash by plotly?
+- dynamically updated as more passes are done or one alrge pass to begin with 
+- maybe one large pass and then have commands for grabbing certain data sets and what not - API 
+
+Next steps
+- create repo 
+- Set-up ORM
+- Play with some queries
+- Export data
+- Generate visuals 
+
+End goal 
+-  a website used to analyze data of the collatz conjecture and simplifies complex queries as well as providing
+dynamic visuals 
