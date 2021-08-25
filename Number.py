@@ -28,4 +28,4 @@ class Number:
         return self.visits
 
     def __str__(self):
-        return ("Number: " + str(self.num) + "\nIterations: " + str(self.iterations) + "\nVisits: " + str(self.visits))
+        return "Number: " + str(self.num) + "\nIterations: " + str(self.iterations) + "\nVisits: " + str(self.visits)

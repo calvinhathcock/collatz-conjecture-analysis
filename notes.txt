@@ -31,6 +31,7 @@ What will my program do?
 Next steps
 - create repo 
 - Set-up ORM
+- configure tree and relations between numbers
 - Play with some queries
 - Export data
 - Generate visuals 

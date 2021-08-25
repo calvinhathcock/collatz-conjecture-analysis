@@ -18,8 +18,8 @@ def complete_pass(n):
             n = even(n)
         else:
             n = odd(n)
-        num_object.append_iteration()
         num_object.add_visit(n)
+        num_object.append_iteration()
     print(num_object)
 
 
@@ -27,10 +27,10 @@ class Driver:
     startTime = time.time()
     count = 2
 
-    #currentNumber = input("Press enter to make passes up to 1000 ")
+    currentNumber = input("Enter the limit the number you want to stop at: ")
 
-    while count <= 100:
+    while count <= int(currentNumber):
         complete_pass(count)
         count += 1
 
-    print(time.time() - startTime)
+    print("timer: ", time.time() - startTime)
